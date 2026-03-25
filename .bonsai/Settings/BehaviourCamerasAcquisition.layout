@@ -2,12 +2,12 @@
 <VisualizerLayout Version="2.9.0">
   <WindowSettings Index="3">
     <Location>
-      <X>926</X>
-      <Y>8</Y>
+      <X>1189</X>
+      <Y>477</Y>
     </Location>
     <Size>
-      <Width>462</Width>
-      <Height>409</Height>
+      <Width>723</Width>
+      <Height>557</Height>
     </Size>
     <VisualizerTypeName>Bonsai.Vision.Design.IplImageVisualizer</VisualizerTypeName>
     <VisualizerSettings>
@@ -16,8 +16,8 @@
   </WindowSettings>
   <WindowSettings Index="6">
     <Location>
-      <X>499</X>
-      <Y>414</Y>
+      <X>1508</X>
+      <Y>712</Y>
     </Location>
     <Size>
       <Width>416</Width>
@@ -27,20 +27,20 @@
     <VisualizerSettings>
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
-        <Min>760000000</Min>
-        <Max>850000000</Max>
+        <Min>-1</Min>
+        <Max>1</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>
   </WindowSettings>
   <WindowSettings Index="25">
     <Location>
-      <X>471</X>
-      <Y>9</Y>
+      <X>1006</X>
+      <Y>86</Y>
     </Location>
     <Size>
-      <Width>468</Width>
-      <Height>410</Height>
+      <Width>564</Width>
+      <Height>414</Height>
     </Size>
     <VisualizerTypeName>Bonsai.Vision.Design.IplImageVisualizer</VisualizerTypeName>
     <VisualizerSettings>
@@ -49,8 +49,8 @@
   </WindowSettings>
   <WindowSettings Index="28">
     <Location>
-      <X>951</X>
-      <Y>417</Y>
+      <X>1509</X>
+      <Y>557</Y>
     </Location>
     <Size>
       <Width>416</Width>
@@ -68,12 +68,12 @@
   </WindowSettings>
   <WindowSettings Index="47">
     <Location>
-      <X>1375</X>
-      <Y>8</Y>
+      <X>1556</X>
+      <Y>85</Y>
     </Location>
     <Size>
-      <Width>537</Width>
-      <Height>412</Height>
+      <Width>369</Width>
+      <Height>329</Height>
     </Size>
     <VisualizerTypeName>Bonsai.Vision.Design.IplImageVisualizer</VisualizerTypeName>
     <VisualizerSettings>
@@ -82,8 +82,8 @@
   </WindowSettings>
   <WindowSettings Index="50">
     <Location>
-      <X>1441</X>
-      <Y>415</Y>
+      <X>1506</X>
+      <Y>411</Y>
     </Location>
     <Size>
       <Width>416</Width>

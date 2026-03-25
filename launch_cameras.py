@@ -21,7 +21,7 @@ from datetime import datetime, timezone
 
 BONSAI_EXE = r"C:\Users\harrislab\AppData\Local\Bonsai\Bonsai.exe"
 WORKFLOW    = r"C:\Users\harrislab\Bonsai\BehaviourCamerasAcquisition.bonsai"
-BASE_DIR    = r"C:\Users\harrislab\luminoseData\rawdata"
+BASE_DIR    = r"C:\Users\harrislab\Documents\luminose_hf_videos\rawdata"
 
 CAMERAS = ["Left", "Right", "Body"]
 
@@ -119,7 +119,7 @@ def main():
     for name, path in paths.items():
         print("    [{}] {}".format(name, os.path.basename(path)))
 
-    print("\n  Launching Bonsai... (close Bonsai or stop the workflow to finish)\n")
+    print("\n  Launching Bonsai... (stop the workflow and REMEMBER TO CLOSE BONSAI to finish)\n")
 
     bonsai_args = build_bonsai_args(paths)
 
