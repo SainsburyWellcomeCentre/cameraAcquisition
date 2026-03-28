@@ -5,9 +5,9 @@ function launch_bonsai(bonsaiPath, workflowPath, videoDataPath, filePrefix)
     rightVideoFilename = strcat(filePrefix, '_CameraAcqRight.avi');
     bodyVideoFilename = strcat(filePrefix, '_CameraAcqBody.avi');
     
-    leftDataFilename = strcat(filePrefix, '_CameraAcqLeft.frameData.bin');
-    rightDataFilename = strcat(filePrefix, '_CameraAcqRight.frameData.bin');
-    bodyDataFilename = strcat(filePrefix, '_CameraAcqBody.frameData.bin');
+    leftDataFilename = strcat(filePrefix, '_CameraAcqLeft.csv');
+    rightDataFilename = strcat(filePrefix, '_CameraAcqRight.csv');
+    bodyDataFilename = strcat(filePrefix, '_CameraAcqBody.csv');
     
     startArg = '--start';
     noboot = '--no-boot';
