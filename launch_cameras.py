@@ -42,7 +42,7 @@ def build_paths(subject, protocol):
     paths = {}
     for cam in CAMERAS:
         paths["{}Video".format(cam)]     = os.path.join(session_dir, "{}_CameraAcq{}.avi".format(prefix, cam))
-        paths["{}FrameData".format(cam)] = os.path.join(session_dir, "{}_CameraAcq{}.FrameData.bin".format(prefix, cam))
+        paths["{}FrameData".format(cam)] = os.path.join(session_dir, "{}_CameraAcq{}.csv".format(prefix, cam))
     return paths
 
 

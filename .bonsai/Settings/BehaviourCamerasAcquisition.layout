@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VisualizerLayout Version="2.9.0">
   <WindowSettings Index="3">
+    <Visible>false</Visible>
     <Location>
-      <X>1189</X>
-      <Y>477</Y>
+      <X>1007</X>
+      <Y>487</Y>
     </Location>
     <Size>
       <Width>723</Width>
@@ -16,8 +17,8 @@
   </WindowSettings>
   <WindowSettings Index="6">
     <Location>
-      <X>1508</X>
-      <Y>712</Y>
+      <X>1509</X>
+      <Y>765</Y>
     </Location>
     <Size>
       <Width>416</Width>
@@ -35,7 +36,7 @@
   </WindowSettings>
   <WindowSettings Index="25">
     <Location>
-      <X>1006</X>
+      <X>951</X>
       <Y>86</Y>
     </Location>
     <Size>
@@ -60,20 +61,20 @@
     <VisualizerSettings>
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
-        <Min>255000000</Min>
-        <Max>285000000</Max>
+        <Min>0</Min>
+        <Max>3000000000</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>
   </WindowSettings>
   <WindowSettings Index="47">
     <Location>
-      <X>1556</X>
+      <X>1502</X>
       <Y>85</Y>
     </Location>
     <Size>
-      <Width>369</Width>
-      <Height>329</Height>
+      <Width>420</Width>
+      <Height>372</Height>
     </Size>
     <VisualizerTypeName>Bonsai.Vision.Design.IplImageVisualizer</VisualizerTypeName>
     <VisualizerSettings>
@@ -93,8 +94,8 @@
     <VisualizerSettings>
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
-        <Min>760000000</Min>
-        <Max>850000000</Max>
+        <Min>500000000</Min>
+        <Max>3500000000</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>

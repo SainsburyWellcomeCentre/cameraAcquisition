@@ -6,6 +6,7 @@
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
                  xmlns:dsp="clr-namespace:Bonsai.Dsp;assembly=Bonsai.Dsp"
+                 xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
@@ -25,7 +26,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
-          <cv:FileName>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqLeft.avi</cv:FileName>
+          <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqLeft.avi</cv:FileName>
           <cv:Suffix>Timestamp</cv:Suffix>
           <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
@@ -101,15 +102,14 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="ExternalizedMapping">
-        <Property Name="Path" DisplayName="LeftFrameData" />
+        <Property Name="FileName" DisplayName="LeftFrameData" />
       </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="dsp:MatrixWriter">
-          <dsp:Path>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqLeft.FrameData.bin</dsp:Path>
-          <dsp:Suffix>Timestamp</dsp:Suffix>
-          <dsp:Overwrite>true</dsp:Overwrite>
-          <dsp:Layout>ColumnMajor</dsp:Layout>
-        </Combinator>
+      <Expression xsi:type="io:CsvWriter">
+        <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqLeft.csv</io:FileName>
+        <io:Append>false</io:Append>
+        <io:Overwrite>false</io:Overwrite>
+        <io:Suffix>None</io:Suffix>
+        <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="pgr:FlyCapture">
@@ -127,7 +127,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
-          <cv:FileName>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqRight.avi</cv:FileName>
+          <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqRight.avi</cv:FileName>
           <cv:Suffix>Timestamp</cv:Suffix>
           <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
@@ -203,15 +203,14 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="ExternalizedMapping">
-        <Property Name="Path" DisplayName="RightFrameData" />
+        <Property Name="FileName" DisplayName="RightFrameData" />
       </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="dsp:MatrixWriter">
-          <dsp:Path>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqRight.FrameData.bin</dsp:Path>
-          <dsp:Suffix>Timestamp</dsp:Suffix>
-          <dsp:Overwrite>true</dsp:Overwrite>
-          <dsp:Layout>ColumnMajor</dsp:Layout>
-        </Combinator>
+      <Expression xsi:type="io:CsvWriter">
+        <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqRight.csv</io:FileName>
+        <io:Append>false</io:Append>
+        <io:Overwrite>false</io:Overwrite>
+        <io:Suffix>None</io:Suffix>
+        <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="pgr:FlyCapture">
@@ -229,7 +228,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
-          <cv:FileName>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqBody.avi</cv:FileName>
+          <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqBody.avi</cv:FileName>
           <cv:Suffix>Timestamp</cv:Suffix>
           <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
@@ -305,15 +304,14 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="ExternalizedMapping">
-        <Property Name="Path" DisplayName="BodyFrameData" />
+        <Property Name="FileName" DisplayName="BodyFrameData" />
       </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="dsp:MatrixWriter">
-          <dsp:Path>C:\Users\harrislab\luminoseData\rawdata\FakeSubject\FakeProtocol\FakeSubject_FakeProtocol_CameraAcqBody.FrameData.bin</dsp:Path>
-          <dsp:Suffix>Timestamp</dsp:Suffix>
-          <dsp:Overwrite>true</dsp:Overwrite>
-          <dsp:Layout>ColumnMajor</dsp:Layout>
-        </Combinator>
+      <Expression xsi:type="io:CsvWriter">
+        <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqBody.csv</io:FileName>
+        <io:Append>false</io:Append>
+        <io:Overwrite>false</io:Overwrite>
+        <io:Suffix>None</io:Suffix>
+        <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
     </Nodes>
     <Edges>
