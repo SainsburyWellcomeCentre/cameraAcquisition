@@ -5,4 +5,4 @@ If running separately, change paths in launch_cameras.py and run in the terminal
 ```
 python launch_cameras.py
 ```
-Adapted from (iblrig bonsai camera acquisition)[https://github.com/int-brain-lab/iblrig/releases/tag/6.6.4]
+Adapted from [iblrig bonsai camera acquisition](https://github.com/int-brain-lab/iblrig/releases/tag/6.6.4)
