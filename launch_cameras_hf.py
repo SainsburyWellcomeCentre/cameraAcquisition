@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 # ── Configuration ─────────────────────────────────────────────────────────────
 
 BONSAI_EXE = r"C:\Users\harrislab\AppData\Local\Bonsai\Bonsai.exe"
-WORKFLOW    = r"C:\Users\harrislab\cameraAcquisition\BehaviourCamerasAcquisition.bonsai"
+WORKFLOW    = r"C:\Users\harrislab\cameraAcquisition\BehaviourCamerasAcquisitionHF.bonsai"
 BASE_DIR    = r"C:\Users\harrislab\luminoseData"
 
 CAMERAS = ["Left", "Right", "Body"]

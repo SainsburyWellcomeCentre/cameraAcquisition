@@ -20,10 +20,10 @@ from datetime import datetime, timezone
 # ── Configuration ─────────────────────────────────────────────────────────────
 
 BONSAI_EXE = r"C:\Users\harrislab\AppData\Local\Bonsai\Bonsai.exe"
-WORKFLOW    = r"C:\Users\harrislab\cameraAcquisition\BehaviourCamerasAcquisition.bonsai"
+WORKFLOW    = r"C:\Users\harrislab\cameraAcquisition\BehaviourCamerasAcquisitionFM.bonsai"
 BASE_DIR    = r"C:\Users\harrislab\luminoseData"
 
-CAMERAS = ["Left", "Right", "Body"]
+CAMERAS = ["Top", "Side"]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -37,7 +37,7 @@ def prompt(label):
 
 def build_paths(subject, protocol):
     """Return dict of the 6 base paths (without Bonsai's timestamp suffix)."""
-    session_dir = os.path.join(BASE_DIR, subject, "luminose_hf_videos", "Session Videos")
+    session_dir = os.path.join(BASE_DIR, subject, "luminose_fm_videos", "Session Videos")
     prefix = "{}_{}".format(subject, protocol)
     paths = {}
     for cam in CAMERAS:
