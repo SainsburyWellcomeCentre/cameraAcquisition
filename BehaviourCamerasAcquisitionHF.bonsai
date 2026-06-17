@@ -10,7 +10,7 @@
     <Nodes>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="pgr:FlyCapture">
-          <pgr:Index>1</pgr:Index>
+          <pgr:Index>2</pgr:Index>
           <pgr:ColorProcessing>Default</pgr:ColorProcessing>
           <pgr:NumBuffers>10</pgr:NumBuffers>
           <pgr:GrabMode>DropFrames</pgr:GrabMode>
@@ -25,11 +25,11 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
           <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqLeft.avi</cv:FileName>
-          <cv:Suffix>None</cv:Suffix>
-          <cv:Buffered>true</cv:Buffered>
+          <cv:Suffix>Timestamp</cv:Suffix>
+          <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
           <cv:FourCC>FMP4</cv:FourCC>
-          <cv:FrameRate>30</cv:FrameRate>
+          <cv:FrameRate>60</cv:FrameRate>
           <cv:FrameSize>
             <cv:Width>0</cv:Width>
             <cv:Height>0</cv:Height>
@@ -50,12 +50,12 @@
         <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqLeft.csv</io:FileName>
         <io:Append>false</io:Append>
         <io:Overwrite>true</io:Overwrite>
-        <io:Suffix>None</io:Suffix>
+        <io:Suffix>Timestamp</io:Suffix>
         <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="pgr:FlyCapture">
-          <pgr:Index>0</pgr:Index>
+          <pgr:Index>1</pgr:Index>
           <pgr:ColorProcessing>Default</pgr:ColorProcessing>
           <pgr:NumBuffers>10</pgr:NumBuffers>
           <pgr:GrabMode>DropFrames</pgr:GrabMode>
@@ -70,11 +70,11 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
           <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqRight.avi</cv:FileName>
-          <cv:Suffix>None</cv:Suffix>
-          <cv:Buffered>true</cv:Buffered>
+          <cv:Suffix>Timestamp</cv:Suffix>
+          <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
           <cv:FourCC>FMP4</cv:FourCC>
-          <cv:FrameRate>30</cv:FrameRate>
+          <cv:FrameRate>60</cv:FrameRate>
           <cv:FrameSize>
             <cv:Width>0</cv:Width>
             <cv:Height>0</cv:Height>
@@ -95,12 +95,12 @@
         <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqRight.csv</io:FileName>
         <io:Append>false</io:Append>
         <io:Overwrite>true</io:Overwrite>
-        <io:Suffix>None</io:Suffix>
+        <io:Suffix>Timestamp</io:Suffix>
         <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="pgr:FlyCapture">
-          <pgr:Index>2</pgr:Index>
+          <pgr:Index>0</pgr:Index>
           <pgr:ColorProcessing>Default</pgr:ColorProcessing>
           <pgr:NumBuffers>10</pgr:NumBuffers>
           <pgr:GrabMode>DropFrames</pgr:GrabMode>
@@ -115,11 +115,11 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:VideoWriter">
           <cv:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqBody.avi</cv:FileName>
-          <cv:Suffix>None</cv:Suffix>
-          <cv:Buffered>true</cv:Buffered>
+          <cv:Suffix>Timestamp</cv:Suffix>
+          <cv:Buffered>false</cv:Buffered>
           <cv:Overwrite>true</cv:Overwrite>
           <cv:FourCC>FMP4</cv:FourCC>
-          <cv:FrameRate>30</cv:FrameRate>
+          <cv:FrameRate>60</cv:FrameRate>
           <cv:FrameSize>
             <cv:Width>0</cv:Width>
             <cv:Height>0</cv:Height>
@@ -140,7 +140,7 @@
         <io:FileName>C:\Users\harrislab\luminoseData\FakeSubject\luminose_hf_videos\Session Videos\FakeSubject_FakeProtocol_CameraAcqBody.csv</io:FileName>
         <io:Append>false</io:Append>
         <io:Overwrite>true</io:Overwrite>
-        <io:Suffix>None</io:Suffix>
+        <io:Suffix>Timestamp</io:Suffix>
         <io:IncludeHeader>false</io:IncludeHeader>
       </Expression>
     </Nodes>
