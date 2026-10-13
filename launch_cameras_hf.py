@@ -21,7 +21,7 @@ from datetime import datetime, timezone
 
 BONSAI_EXE = r"C:\Users\harrislab\AppData\Local\Bonsai\Bonsai.exe"
 WORKFLOW    = r"C:\Users\harrislab\cameraAcquisition\BehaviourCamerasAcquisitionHF.bonsai"
-BASE_DIR    = r"C:\Users\harrislab\luminoseData"
+BASE_DIR    = r"D:\luminoseData\rawdata"
 
 CAMERAS = ["Left", "Right", "Body"]
 
